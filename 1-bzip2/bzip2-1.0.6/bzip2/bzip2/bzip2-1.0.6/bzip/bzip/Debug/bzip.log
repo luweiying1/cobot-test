@@ -1,0 +1,161 @@
+﻿生成启动时间为 2017/12/27 17:32:29。
+     1>项目“E:\2-C工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip\bzip\bzip.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2012new\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\blocksort.c ..\..\bzip2.c ..\..\bzip2recover.c ..\..\bzlib.c ..\..\compress.c ..\..\crctable.c ..\..\decompress.c ..\..\dlltest.c ..\..\huffman.c ..\..\mk251.c ..\..\randtable.c ..\..\spewG.c ..\..\unzcrash.c
+         unzcrash.c
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\unzcrash.c(86): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+         spewG.c
+         randtable.c
+         mk251.c
+         huffman.c
+         dlltest.c
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(36): warning C4113: “FARPROC”和“const char *(__stdcall *)(void)”的参数列表不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(36): warning C4047: “=”:“const char *(__stdcall *)(void)”与“FARPROC”的间接级别不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(37): warning C4113: “FARPROC”和“BZFILE *(__stdcall *)(const char *,const char *)”的参数列表不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(37): warning C4047: “=”:“BZFILE *(__stdcall *)(const char *,const char *)”与“FARPROC”的间接级别不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(38): warning C4113: “FARPROC”和“BZFILE *(__stdcall *)(int,const char *)”的参数列表不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(38): warning C4047: “=”:“BZFILE *(__stdcall *)(int,const char *)”与“FARPROC”的间接级别不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(39): warning C4113: “FARPROC”和“int (__stdcall *)(BZFILE *,void *,int)”的参数列表不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(40): warning C4113: “FARPROC”和“int (__stdcall *)(BZFILE *,void *,int)”的参数列表不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(41): warning C4113: “FARPROC”和“int (__stdcall *)(BZFILE *)”的参数列表不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(42): warning C4113: “FARPROC”和“void (__stdcall *)(BZFILE *)”的参数列表不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(43): warning C4113: “FARPROC”和“const char *(__stdcall *)(BZFILE *,int *)”的参数列表不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(43): warning C4047: “=”:“const char *(__stdcall *)(BZFILE *,int *)”与“FARPROC”的间接级别不同
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(124): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(133): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(711) : 参见“fileno”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(160): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(711) : 参见“fileno”的声明
+         decompress.c
+         crctable.c
+         compress.c
+         bzlib.c
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzlib.c(1417): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(115) : 参见“strcat”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzlib.c(1418): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(115) : 参见“strcat”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzlib.c(1423): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\vs2012new\vc\include\io.h(317) : 参见“setmode”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzlib.c(1423): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(711) : 参见“fileno”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzlib.c(1425): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzlib.c(1431): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(709) : 参见“fdopen”的声明
+         bzip2recover.c
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(312): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(349): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(351): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(425): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(471): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(480): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(482): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(115) : 参见“strcat”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(484): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(115) : 参见“strcat”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2recover.c(489): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+         bzip2.c
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(338): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\vs2012new\vc\include\io.h(317) : 参见“setmode”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(338): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(711) : 参见“fileno”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(339): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\vs2012new\vc\include\io.h(317) : 参见“setmode”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(369): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(711) : 参见“fileno”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(446): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\vs2012new\vc\include\io.h(317) : 参见“setmode”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(447): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\vs2012new\vc\include\io.h(317) : 参见“setmode”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(485): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(711) : 参见“fileno”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(567): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\vs2012new\vc\include\io.h(317) : 参见“setmode”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(933): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(191) : 参见“strncpy”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(942): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(971): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1126): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(115) : 参见“strcat”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1153): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(115) : 参见“strcat”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1170): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1230): warning C4996: 'isatty': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _isatty. See online help for details.
+                 d:\vs2012new\vc\include\io.h(311) : 参见“isatty”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1242): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1244): warning C4996: 'isatty': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _isatty. See online help for details.
+                 d:\vs2012new\vc\include\io.h(311) : 参见“isatty”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1256): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1263): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1267): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1274): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1341): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(115) : 参见“strcat”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1359): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1416): warning C4996: 'isatty': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _isatty. See online help for details.
+                 d:\vs2012new\vc\include\io.h(311) : 参见“isatty”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1428): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1432): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1440): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1444): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1451): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1539): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1557): warning C4996: 'isatty': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _isatty. See online help for details.
+                 d:\vs2012new\vc\include\io.h(311) : 参见“isatty”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1570): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1573): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(164) : 参见“strerror”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1734): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip2.c(1752): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012new\vc\include\stdlib.h(449) : 参见“getenv”的声明
+         blocksort.c
+         正在生成代码...
+     1>e:\2-c工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\dlltest.c(61): warning C4715: “BZ2DLLFreeLibrary”: 不是所有的控件路径都返回值
+       Link:
+         D:\VS2012new\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\2-C工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip\Debug\bzip.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\2-C工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip\Debug\bzip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\2-C工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip\Debug\bzip.lib" /MACHINE:X86 Debug\blocksort.obj
+         Debug\bzip2.obj
+         Debug\bzip2recover.obj
+         Debug\bzlib.obj
+         Debug\compress.obj
+         Debug\crctable.obj
+         Debug\decompress.obj
+         Debug\dlltest.obj
+         Debug\huffman.obj
+         Debug\mk251.obj
+         Debug\randtable.obj
+         Debug\spewG.obj
+         Debug\unzcrash.obj
+         bzip.vcxproj -> E:\2-C工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip\Debug\bzip.exe
+     1>已完成生成项目“E:\2-C工程\1-bzip2\bzip2-1.0.6\bzip2\bzip2\bzip2-1.0.6\bzip\bzip\bzip.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.25

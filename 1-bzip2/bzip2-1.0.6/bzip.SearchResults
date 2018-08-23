@@ -1,0 +1,2 @@
+---- fchown Matches (1 in 1 files) ----
+Bzip2.c:   (void) fchown ( fd, fileMetaInfo.st_uid, fileMetaInfo.st_gid );
